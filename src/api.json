@@ -1,0 +1,76 @@
+{
+    "cursos": [
+      {
+        "id": 1,
+        "nombre": "Introducción a HTML",
+        "descripcion": "Aprende los fundamentos de HTML.",
+        "modulos": [
+          {
+            "id": 1,
+            "titulo": "Fundamentos de HTML",
+            "descripcion": "Conoce las etiquetas básicas de HTML y cómo estructurar una página web.",
+            "actividades": [
+              {
+                "id": 1,
+                "nombre": "Lectura: Introducción a HTML",
+                "tipo": "lectura",
+                "contenido": "Lecturas/html-intro.md"
+              },
+              {
+                "id": 2,
+                "nombre": "Ejercicio: Crear una página HTML básica",
+                "tipo": "ejercicio",
+                "contenido": "html-basic-exercise.md"
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "titulo": "Formularios y Elementos Multimedia",
+            "descripcion": "Aprende a crear formularios y a incluir elementos multimedia en HTML.",
+            "actividades": [
+              {
+                "id": 3,
+                "nombre": "Video: Formularios en HTML",
+                "tipo": "video",
+                "contenido": "html-forms-video.mp4"
+              },
+              {
+                "id": 4,
+                "nombre": "Ejercicio: Crear un formulario de contacto",
+                "tipo": "ejercicio",
+                "contenido": "html-form-exercise.md"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "nombre": "Introducción a CSS",
+        "descripcion": "Aprende a estilizar tus páginas web con CSS.",
+        "modulos": [
+          {
+            "id": 3,
+            "titulo": "Fundamentos de CSS",
+            "descripcion": "Conoce las propiedades y selectores básicos de CSS.",
+            "actividades": [
+              {
+                "id": 5,
+                "nombre": "Lectura: Selectores y Propiedades CSS",
+                "tipo": "lectura",
+                "contenido": "css-selectors.md"
+              },
+              {
+                "id": 6,
+                "nombre": "Ejercicio: Aplicar estilos a una página HTML",
+                "tipo": "ejercicio",
+                "contenido": "css-styling-exercise.md"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

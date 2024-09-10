@@ -6,6 +6,8 @@
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "@xterm/addon-fit": "^0.10.0",
+    "@xterm/xterm": "^5.5.0",
     "lucide-react": "^0.437.0",
     "monaco-editor": "^0.51.0",
     "react": "^18.3.1",
@@ -14,7 +16,7 @@
     "react-markdown": "^9.0.1",
     "react-monaco-editor": "^0.56.1",
     "react-router-dom": "^6.26.1",
-    "react-scripts": "5.0.1",
+    "react-scripts": "^5.0.1",
     "react-slick": "^0.30.2",
     "react-split-pane": "^0.1.92",
     "slick-carousel": "^1.8.1",
@@ -48,6 +50,10 @@
     ]
   },
   "devDependencies": {
+    "@babel/plugin-transform-class-properties": "^7.25.4",
+    "@babel/plugin-transform-numeric-separator": "^7.24.7",
+    "@babel/plugin-transform-optional-chaining": "^7.24.8",
+    "@babel/plugin-transform-private-methods": "^7.25.4",
     "ajv": "^8.17.1"
   }
 }

@@ -1,6 +1,6 @@
 // src/App.js
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router,  Routes, Route } from 'react-router-dom';
 import Header from './Components/Header/Header';
 import Home from './Pages/Home/Home';
 import About from './Pages/About/About';
@@ -10,7 +10,7 @@ import 'slick-carousel/slick/slick-theme.css';
 
 import styles from './App.module.css';
 import VideoPage from './NoComponents/VideoPage';
-import Footer from './Components/Footer/Footer';
+
 
 function App() {
   return (

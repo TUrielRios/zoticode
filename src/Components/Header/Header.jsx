@@ -10,10 +10,10 @@ function Header() {
         <img className={styles.logoImg} src={logo} alt="" />
       </div>
       <nav className={styles.nav}>
-      <a href="#">Recursos</a>
-        <a href="#">Cursos</a>
-        <a href="#">Nosotros</a>
-        <a href="#">Inscribite</a>
+      <a href="/">Recursos</a>
+        <a href="/">Cursos</a>
+        <a href="/">Nosotros</a>
+        <a href="/">Inscribite</a>
 
       </nav>
     </header>

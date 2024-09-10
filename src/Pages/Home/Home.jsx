@@ -8,6 +8,7 @@ import CallToActionSection from '../../Components/CallToActionSection/CallToActi
 import TestimonialsSection from '../../Components/TestimonialsSection/TestimonialsSection'
 import ProgrammingSection from '../../Components/ProgrammingSection/ProgrammingSection';
 import styles from './Home.module.css'
+import Footer from '../../Components/Footer/Footer';
 
 
 

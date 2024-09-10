@@ -10,6 +10,7 @@ import 'slick-carousel/slick/slick-theme.css';
 
 import styles from './App.module.css';
 import VideoPage from './NoComponents/VideoPage';
+import Footer from './Components/Footer/Footer';
 
 function App() {
   return (

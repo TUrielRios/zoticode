@@ -1,7 +1,4 @@
-// src/components/VideoPlayer.jsx
 import styles from './VideoPlayer.module.css';
-import googleClone from '../ClasesGrabadas/clon-google.mp4'
-import clonePng from '../ClasesGrabadas/clonGoogle.png'
 
 const VideoPlayer = ({ selectedVideo }) => {
   return (
@@ -9,7 +6,7 @@ const VideoPlayer = ({ selectedVideo }) => {
       {selectedVideo ? (
         <div>
           <h2>{selectedVideo.title}</h2>
-          <video controls src={googleClone} className={styles.video} />
+          <video controls src={selectedVideo.url} className={styles.video} />
           <p>{selectedVideo.description}</p>
         </div>
       ) : (
